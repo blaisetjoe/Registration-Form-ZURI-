@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     
     <title>Registration Form</title>
   </head>
@@ -26,14 +27,24 @@
         <p class="form-title">
           <b>Try it fee 7days </b> then $20/mo. thereafter
         </p>
-        <form id="form" action="#">
+        <form class="form" id="form" action="#">
           <div class="form-control">
-            <input type="text" name="fname" placeholder=" First Name" required/> <br />
-            <input type="text" name="lname" placeholder=" Last Name" /> <br />
-            <input type="email" name="email" placeholder="Email Address" /> <br />
-            <input type="text" name="password" placeholder="Password" /> <br />
+            <input type="text" name="fname" placeholder=" First Name" required/> 
+          </div>
+           <div class="form-control">
+            <input type="text" name="lname" placeholder=" Last Name" required /> 
+           </div>
+       <div class="form-control">
+        <input type="email" name="email" placeholder="Email Address" required /> 
+       </div>
+          <div class="form-control">
+            <input type="password" name="password" placeholder="Password" required/>
+          </div>
+    <div class="form-control">
+      <input type="submit" class="submit" value="CLAIM YOUR FREE TRIAL" />
+    </div>
   
-            <input type="submit" class="submit" value="CLAIM YOUR FREE TRIAL" />
+          
   
             <p class="form-footer">
               By clicking the button, you are agreeing to our
